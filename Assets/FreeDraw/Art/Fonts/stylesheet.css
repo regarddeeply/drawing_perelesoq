@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Journal Sans';
+    src: url('JournalSans-Bold.eot');
+    src: local('Journal Sans Bold'), local('JournalSans-Bold'),
+        url('JournalSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('JournalSans-Bold.woff2') format('woff2'),
+        url('JournalSans-Bold.woff') format('woff'),
+        url('JournalSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Journal Sans';
+    src: url('JournalSans.eot');
+    src: local('Journal Sans'), local('JournalSans'),
+        url('JournalSans.eot?#iefix') format('embedded-opentype'),
+        url('JournalSans.woff2') format('woff2'),
+        url('JournalSans.woff') format('woff'),
+        url('JournalSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Journal Sans';
+    src: url('JournalSans-Italic.eot');
+    src: local('Journal Sans Italic'), local('JournalSans-Italic'),
+        url('JournalSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('JournalSans-Italic.woff2') format('woff2'),
+        url('JournalSans-Italic.woff') format('woff'),
+        url('JournalSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
