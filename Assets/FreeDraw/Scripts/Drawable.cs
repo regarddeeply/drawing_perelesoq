@@ -48,8 +48,8 @@ namespace FreeDraw
 
         [SerializeField]
         public int id;
-        public int wrongColorState = 0;
-        public float mistakesCounter = 0f;
+        private int wrongColorState = 0;
+        private float mistakesCounter = 0f;
         public Color targetColor;
         public Texture2D sprite, drawing;
         public GameObject drawableSprite, realSprite, hintSprite;
@@ -525,7 +525,7 @@ namespace FreeDraw
                 if (!obj.activeSelf)
                 {
                     obj.gameObject.GetComponent<Image>().enabled = false;
-                    obj.gameObject.GetComponent<Melok>().enabled = false;
+                    obj.gameObject.GetComponent<Pencil>().enabled = false;
                 }
             }
         }

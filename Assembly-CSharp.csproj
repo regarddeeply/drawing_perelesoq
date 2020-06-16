@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3DF23C9B-E1DC-8846-5C9B-72389CD3B47F}</ProjectGuid>
+    <ProjectGuid>{352DBB24-1C94-952E-BD52-C19EECEE5283}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,45 +62,43 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CursorMovement.cs" />
-    <Compile Include="Assets\Dialogs.cs" />
+    <Compile Include="Assets\FreeDraw\Scripts\CursorMovement.cs" />
+    <Compile Include="Assets\FreeDraw\Scripts\Dialogs.cs" />
     <Compile Include="Assets\FreeDraw\Scripts\Drawable.cs" />
     <Compile Include="Assets\FreeDraw\Scripts\DrawingSettings.cs" />
-    <Compile Include="Assets\Melok.cs" />
-    <Compile Include="Assets\PlayMusic.cs" />
-    <Compile Include="Assets\SpritesComparing.cs" />
+    <Compile Include="Assets\FreeDraw\Scripts\Pencil.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Unity_Old_Projects/textperelesoq/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Unity_Old_Projects/drawing_perelesoq/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Unity_Old_Projects/textperelesoq/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Unity_Old_Projects/drawing_perelesoq/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Unity_Old_Projects/textperelesoq/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Unity_Old_Projects/drawing_perelesoq/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Unity_Old_Projects/textperelesoq/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Unity_Old_Projects/drawing_perelesoq/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Unity_Old_Projects/textperelesoq/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Unity_Old_Projects/drawing_perelesoq/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Unity_Old_Projects/textperelesoq/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Unity_Old_Projects/drawing_perelesoq/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Unity_Old_Projects/textperelesoq/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Unity_Old_Projects/drawing_perelesoq/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/Unity_Old_Projects/textperelesoq/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>D:/Unity_Old_Projects/drawing_perelesoq/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>D:/Unity_Old_Projects/textperelesoq/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>D:/Unity_Old_Projects/drawing_perelesoq/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Unity_Old_Projects/textperelesoq/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Unity_Old_Projects/drawing_perelesoq/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Unity_Old_Projects/textperelesoq/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Unity_Old_Projects/drawing_perelesoq/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

@@ -40,11 +40,11 @@ namespace FreeDraw
         // Call these these to change the pen settings
 
 
-        public void SetMarkerCustom(Melok melok)
+        public void SetMarkerCustom(Pencil pencil)
         {
-            Cursor.SetCursor(melok.cursorColor, new Vector2(melok.cursorColor.width / 2, melok.cursorColor.height / 2), CursorMode.Auto);
-            Debug.Log(melok.cursorColor);
-            Color c = melok.Color;
+            Cursor.SetCursor(pencil.cursorColor, new Vector2(pencil.cursorColor.width / 2, pencil.cursorColor.height / 2), CursorMode.Auto);
+            Debug.Log(pencil.cursorColor);
+            Color c = pencil.Color;
             c.a = Transparency;
             SetMarkerColour(c);
             Drawable.drawable.SetPenBrush();
@@ -56,7 +56,7 @@ namespace FreeDraw
                     obj.SetActive(true);
                 }
             }
-            melok.gameObject.SetActive(false);
+            pencil.gameObject.SetActive(false);
         }
 
         public void SetMarkerRed()
